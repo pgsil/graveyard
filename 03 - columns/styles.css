@@ -1,0 +1,139 @@
+/*Reset! */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Defaults! */
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #0a0a0a;
+	color: #666;
+	margin: 0 auto;
+}
+a{
+	color: #ff3;
+	text-decoration: none;
+	transition: all 0.4s ease;
+}
+a:hover, a:focus{
+	color: white;
+}
+
+/* Classes! */
+.opensans{
+	font-family: 'Open Sans', sans-serif;
+}
+.bold{
+	font-weight: 900;
+	font-size: 1.5em;
+}
+.serif{
+	font-family: 'Lora', serif;
+}
+.lightgray{
+	color: #eaeaea;
+}
+.column{
+	height: 100%;
+	width: 33%; 
+	display: inline-block;
+	position: relative;
+	border: 0px solid white;
+	top: 0;
+	filter: grayscale(100%);
+	transition: 0.3s filter linear;
+	overflow: hidden;
+}
+.column:hover{
+	filter: grayscale(0%)
+}
+.col-text{
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+	background-color: rgba(0,0,0,0);
+	font-size: 2em;
+}
+.color-blue a{
+    color: #3e4e73
+}
+.color-wine a{
+    color: #a53737;
+}
+
+video{
+	width: auto;
+	height: 100%;
+}
+
+
+/* IDs! */
+#header{
+	width: 100%;
+	min-height: 15%
+	overflow: hidden;
+	margin-bottom: 1em;
+	border-bottom: 2px double #3a3a3a;
+}
+#titlename{
+	margin-top: 1em;
+	margin-left: 1em;
+	padding-bottom: 0.5em;
+
+}
+#container{
+	height: 70%;
+	overflow: hidden;
+}
+#column1{
+	background-color: #bd4320;
+}
+#column2{
+	background-color: #24245f;
+}
+#column3{
+	background-color: #296529;
+}

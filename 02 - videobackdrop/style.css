@@ -1,0 +1,222 @@
+/* RESET EVERYTHING RESET EVERYTHING RESET EVERYTHING  */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+
+body{
+	background-color: white;
+	margin: 0;
+}
+
+#footer{
+	width: 100%;
+	min-height: 20px;
+	background-color: #399dff;
+.}
+#navbar{
+	margin: 0;
+	width: 100%;
+	position: absolute;
+	background-color: #399dff;
+}
+.navbar-item{
+	width: 150px;
+	height: 60px;
+	text-decoration: none;
+    font-family: "Source Sans Pro", arial, sans-serif;
+	margin: auto;
+}
+.navbar-item a{
+	color: #ffffff;
+	margin-left: 50%;
+	margin-right: 50%;
+    position: relative;
+    text-decoration: none;
+    top: 35%
+}
+
+#maincontent{
+	background-color: #ffffff;
+	color: black;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	z-index: 2;
+	font-family: "Source Sans Pro", arial, sans-serif;
+	min-height: 300px;
+}
+.main-item{
+	display: inline-block;
+	width: 150px;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 4em;
+}
+.main-item h4{
+	font-size: 130%;
+}
+.main-item p{
+	font-size: 110%;
+}
+.main-item img{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	border: 0px solid #4e7294;
+}
+
+#about{
+	width: 100%;
+	overflow: hidden;
+	height: 600px;
+	align-content: center;
+	background-color: rgba(0,0,0,.3);
+}
+
+
+#video{
+	width: 100%;
+	height: 660px;
+	z-index: -10;
+	-webkit-filter: blur(15px);
+	-moz-filter: blur(15px);
+	-o-filter: blur(15px);
+	-ms-filter: blur(15px);
+	filter: blur(15px);
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.contactus{
+	display: inline-block;
+    padding: .5em 1em;
+    text-decoration: none;
+    font-family: "Source Sans Pro", arial, sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #ffffff;
+    border: 0px solid #4e7294;
+    position: relative;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    align-content: center;
+    text-align: center;
+    top: 50%;
+    height: 24px;
+    background-color: #399dff
+}
+#contact-us-wrapper{
+	width: 100%;
+	min-height: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	overflow: hidden;
+	display: flex;
+	align-content: center;
+	text-align: middle;
+}
+
+#banner{	
+	margin: auto;
+	position: relative;
+	width:100%;
+	height: 420px;
+	top: 35%;
+	text-align: center;
+}
+
+#banner-large-text{
+	display: inline-block;
+	min-width: 90%;
+	text-align: center;
+	min-height:30px;
+}
+#subtitle{
+	min-height: 30px;
+	margin-bottom: 20px;
+}
+.button{
+	display: inline-block;
+	text-align: center;
+    color: #ffffff;
+    width: 300px;
+    height: 34px;
+    background-color: #399dff;
+    border-radius: 4px;
+    margin: auto;
+
+}
+.text-white{
+	color: white;
+}
+.text-blue{
+	color: #399dff;;
+}
+.text-style{
+	font-family: "Source Sans Pro", arial, sans-serif;
+}
+.vert-align{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.title {
+    font-size: 3em;
+    font-family: "Montserrat", helvetica, sans-serif;
+}
+.flex-middle{
+	align-self: center;
+}
+.clearfix {
+  overflow: auto;
+}

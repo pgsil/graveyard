@@ -1,0 +1,109 @@
+/* HTML! */
+html{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #181C20 url("http://i.imgur.com/HA7a1gt.png") repeat fixed;
+	color: #9EA1A4;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size:10pt;
+	margin-left:0;
+	margin-right:0;
+	margin-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+/*Classes! */
+.thread{
+	width: 250px;
+	display: inline-block;
+    background-color: rgba(34, 34, 34, 0.63);
+	margin: 15px;
+	height: 400px;
+	text-align: center;
+	color: 999999;
+	font-family: sans-serif;
+	overflow: hidden;
+	border-radius: 8px;
+	border: 3px solid #444444;
+	position: relative;
+}
+.trd-info{
+	font-size: 0.5em;
+	background: #171717;
+	border-radius: 4px;
+	min-width: 45px;
+	max-width: 85px;
+    position: absolute;
+    top: 505px;
+    margin-left: 5px;
+    z-index: 11;
+    min-height: 10px;
+    max-height: 15px;
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;
+}
+.trd-fade{
+    width: 250px;
+    position: absolute;
+    /* top: 421px; */
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    z-index: 10;
+    background: linear-gradient(to top, rgba(34, 34, 34, 1), rgba(0,0,0,0));
+    border-radius: 8px;
+    overflow: hidden;
+}
+.trd-img{
+	border-radius: 7px;
+	display: block;
+	margin: 0;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	margin-top: 5px;
+}
+.trd-img img{
+	display: block;
+	max-width:230px;
+	max-height:120px;
+	width: auto;
+	height: auto;
+    padding: 0;
+    border-radius: 7px;
+    margin: auto;
+    overflow: hidden;
+}
+.trd-title{
+    font-weight: bolder;
+    margin-top: 8px;
+    color: #bb5fff;
+    overflow: hidden;
+}
+.trd-post{
+	overflow: hidden;
+	margin-top: 4px;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-size: 0.9em;
+	overflow: hidden;
+}
+
+/* IDs! */
+#header{
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 2em;
+	font-weight: bolder;
+	color: #57ff6d;
+}
+#container{
+	width: 80%;
+	margin: auto
+}

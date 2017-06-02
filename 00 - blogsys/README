@@ -1,0 +1,9 @@
+00 - blogsys
+
+One of my earliest webdev-related projects, I wanted to make a blog system.
+I had to be able to make posts, log in and see a listing of posts on the main page.
+This project used PHP and MySQL.
+
+At the time of writing, this is is a link to a video of the site's functionality: https://streamable.com/z3pej
+
+It's all very barebones, but it was a start.
